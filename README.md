@@ -4,6 +4,8 @@ The Convolutional Neural Network (CNN or ConvNet) is a subtype of Neural Network
 
 # Data Set
 
+Dataset Link: https://www.cs.toronto.edu/~kriz/cifar.html
+
 Tensorflow has a wide variety of datasets that we can download and use with just a few lines of code. This is especially helpful when you want to test new models and their implementation and therefore do not want to search for appropriate data for a long time. In addition, Google also offers a dataset search, with which one can find a suitable dataset within a few clicks.
 
 For our exemplar Convolutional Neural Network, we use the CIFAR10 dataset, which is available through Tensorflow. The dataset contains a total of 60,000 images in color, divided into ten different image classes, e.g. horse, duck, or truck. We note that this is a perfect training dataset as each class contains exactly 6,000 images. In classification models, we must always make sure that every class is included in the dataset an equal number of times, if possible. For the test dataset, we take a total of 10,000 images and thus 50,000 images for the training dataset.
